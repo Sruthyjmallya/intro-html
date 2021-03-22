@@ -39,6 +39,7 @@ h1 {
     transition: background-size 0.25s ease-in;        
 }
 
+
 img {
     grid-row-start: 2;
     grid-column-start: 1;
@@ -67,10 +68,15 @@ ul:before {
 
 li {
     padding-top: 10px;
+    color: deepskyblue;
+}
+
+p {
+  font-size: 12pt;
 }
 
 a {
-    color: rgb(28, 33, 104);
+    color: rgb(20, 236, 182);
     display: inline-block;
     overflow: hidden;
     position: relative;
@@ -115,4 +121,6 @@ a {
               transform: translate3d(-75%, 0%, 0);
     }
   }
+
+  
   
